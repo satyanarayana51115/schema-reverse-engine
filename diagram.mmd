@@ -1,0 +1,5 @@
+erDiagram
+    sellers ||--o{ invoices : "issues"
+    customers ||--o{ invoices : "receives"
+    invoices ||--|{ invoice_items : "contains"
+    products ||--o{ invoice_items : "ordered_in"
