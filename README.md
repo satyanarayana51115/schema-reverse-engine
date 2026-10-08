@@ -37,24 +37,22 @@ erDiagram
 
 ## ⚙️ How to Run
 
-1. **Clone the Repository:**
+**1. Clone the Repository:**
 ```
 https://github.com/satyanarayana51115/schema-reverse-engine
 ```
-2. **Install dependencies:**
+**2. Install dependencies:**
 ```
 pip install -r requirements.txt
 ```
-3. **Configure your API key in a .env file:**
+**3. Configure your API key in a .env file:**
 ```
 GEMINI_API_KEY="your_api_key_here"
 ```
-4. **Run the engine:**
+**4. Run the engine:**
 ```
 python main.py
 ```
-5. **Output files schema.sql and diagram.mmd will 
+**5. Output files schema.sql and diagram.mmd will 
 be generated in the root directory**
-```
 
-```
